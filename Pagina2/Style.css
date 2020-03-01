@@ -1,0 +1,50 @@
+
+        h1 {color:#8300D8;
+
+}
+
+body{
+background-color: #0086EE;
+}
+
+
+.color1{
+color:black ;
+}
+.color2{
+color:#FFFFFF;
+}
+.color3{
+color:0, 222, 192 ;
+border: 2px solid white;
+}
+
+
+
+ .caja{
+border: 2px solid red;
+margin-top:5px;
+padding: 10px;
+}
+
+.boton{
+background-color:#003830;
+color:#FFFFFF;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+a.boton{
+text-transform: uppercase;
+text-decoration: none;
+}
+
+
+a.boton:hover{
+background-color:#FFFFFF;
+color:#003830;
+text-decoration: underline;
+font-size: 30px;
+}
