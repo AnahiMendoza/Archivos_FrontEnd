@@ -79,6 +79,12 @@
         </div>
       </div>
       <!-- form-row -->
+      <div class="form-row mb-1" >
+        <div class="col-mb-1">
+          <button class="btn btn-primary" id="btn-div">/</button>
+        </div>
+        </div>
+        <!-- form-row -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -184,6 +190,14 @@
           $("#resultado").val("");
         });
 
+        $("#btn-div").click(function(event) {
+          event.preventDefault();
+          let valor=$("#resultado").val();
+          numero=parseFloat(valor);
+          operacion=4;
+          $("#resultado").val("");
+        });
+
         $("#btn-igual").click(function(event) {
           event.preventDefault();
           let valor=$("#resultado").val();
@@ -201,6 +215,10 @@
               break;  
               case 3:
              res=numero * parseFloat(valor);
+             $("#resultado").val(res);
+              break; 
+              case 4:
+             res=numero / parseFloat(valor);
              $("#resultado").val(res);
               break; 
               
