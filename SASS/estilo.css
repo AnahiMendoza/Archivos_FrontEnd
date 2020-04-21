@@ -1,0 +1,46 @@
+body {
+  background: #57029c;
+}
+
+.menu {
+  list-style: none;
+  background: sandybrown;
+  /*padding: 5px 5px;*/
+  max-width: 1024px;
+  margin: auto;
+  font-family: 'Dancing Script', cursive;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+  /*border: 1px solid #000;*/
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.menu li a:hover {
+  text-decoration: none;
+  color: black;
+  background: #c20379;
+  -webkit-text-decoration: uppercase;
+          text-decoration: uppercase;
+  border-bottom: 2px solid #444455;
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 100px;
+}
+
+h2, p {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+/*# sourceMappingURL=estilo.css.map */
